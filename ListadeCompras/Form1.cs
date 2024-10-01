@@ -92,7 +92,7 @@ namespace ListadeCompras
             IniciarCompras();
         }
 
-        //botao para finalizar a compra exibindo o valor total da compra
+        //botao para finalizar a compra exibindo o valor total da compra na messagebox
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Compra Finalizada!" + Environment.NewLine + lblTotal.Text);
