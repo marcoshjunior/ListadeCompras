@@ -46,6 +46,7 @@
             this.lbxProdutos.Name = "lbxProdutos";
             this.lbxProdutos.Size = new System.Drawing.Size(208, 202);
             this.lbxProdutos.TabIndex = 0;
+            this.lbxProdutos.DoubleClick += new System.EventHandler(this.lbxProdutos_DoubleClick);
             // 
             // lbxCompras
             // 
@@ -81,8 +82,9 @@
             this.btnNovaCompra.Name = "btnNovaCompra";
             this.btnNovaCompra.Size = new System.Drawing.Size(89, 27);
             this.btnNovaCompra.TabIndex = 5;
-            this.btnNovaCompra.Text = "Comprar";
+            this.btnNovaCompra.Text = "Nova Compra";
             this.btnNovaCompra.UseVisualStyleBackColor = true;
+            this.btnNovaCompra.Click += new System.EventHandler(this.btnNovaCompra_Click);
             // 
             // btnFinalizar
             // 
@@ -92,6 +94,7 @@
             this.btnFinalizar.TabIndex = 6;
             this.btnFinalizar.Text = "Finalizar";
             this.btnFinalizar.UseVisualStyleBackColor = true;
+            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
             // lblTotal
             // 
